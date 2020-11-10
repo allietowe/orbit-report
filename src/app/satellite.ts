@@ -12,4 +12,12 @@ export class Satellite {
         this.orbitType = orbitType;
         this.operational = operational;
     }
+    shouldShowWarning(): boolean {
+        return this.type.toLowerCase() === 'space debris';
+      }
+    
+    zebraStripe(arr): boolean {
+        return arr.indexOf(this) % 2 === 0 && this.type.toLowerCase() !== 'space debris';
+      }
 }
+

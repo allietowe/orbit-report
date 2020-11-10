@@ -4,7 +4,7 @@
 }
 
 .warning {
-    background-color: #eeaf4a;
+    background-color: #7f1734;
 }
 
 table {
@@ -25,4 +25,11 @@ th, td {
     text-align: left;
     margin: 5px 10px;
     padding: 6px;
+}
+
+.stripe {
+    background-color: #f6b179;
+}
+h3 {
+    color: #7f1734;
 }
